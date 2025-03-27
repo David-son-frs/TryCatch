@@ -16,7 +16,7 @@ public class Exercicio_4 {
                 throw new InputMismatchException("Entrada invalida");
             }
         }catch (InputMismatchException e){
-            System.out.println("Entrada invalida");
+            System.out.println(e.getMessage());
         }finally {
             sc.close();
         }
